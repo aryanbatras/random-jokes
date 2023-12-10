@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   background: black;
+}
+
+#main {
+	width: 84%;
+	height: 62%;
+	margin: 4rem auto;
+	background: coral;
+	
+	border: 4px inset darkorange;
+	border-radius: 8px 4px;
+	box-shadow: 2px 2px orange;
+	
+	position: relative;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+}
+
+span {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 42px;
+}
+
+p {
+	margin: 8px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1px;
+	word-spacing: 2.5px;
+	line-height: 25px;
+}
+
+button {
+	padding: 8px 24px;
+	margin: 8px auto;
+	
+	
+	font-size: 26px;
+	font-family: sans-serif;
+	font-weight: 600;
+	background: salmon;
+	border-radius: 25%;
+}
